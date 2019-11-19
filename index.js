@@ -30,11 +30,8 @@ function createFareMultiplier(int){
    }
 }
 
-function fareDoubler(doub){
-    const x=createFareMultiplier(2)
+const fareDoubler=createFareMultiplier(2)
 
-    return x(doub)
-}
 
 function fareTripler(tripl){
 
