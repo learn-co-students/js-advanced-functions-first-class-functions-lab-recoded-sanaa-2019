@@ -1,7 +1,7 @@
 // Code your solution in this file!
  const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
  let [returnFirstTwoDrivers, returnLastTwoDrivers] = (
-  function(thingToAdd) {
+  function(drivers) {
     let base = 3
     return [
       function() { return base + thingToAdd },
