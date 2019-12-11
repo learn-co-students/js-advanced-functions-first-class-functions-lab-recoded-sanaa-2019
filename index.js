@@ -2,16 +2,16 @@
  const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
  let [returnFirstTwoDrivers, returnLastTwoDrivers] = (
   function(drivers) {
-    let base = 3
+    
     return [
-      function() { return base + thingToAdd },
+      function() { return drivers.slice(0,2) },
       function() { return base }
     ]
   }
 )(2)
  function returnFirstTwoDrivers(drivers){
   let pos=0
-   let  iterator = drivers.slice(pos,2); 
+   let  iterator = drivers.slice(0,2); 
    return iterator
  }
  function returnLastTwoDrivers(drivers){
