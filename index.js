@@ -19,5 +19,5 @@ function fareDoubler(fares){
   return fares *2
 }
 function fareTripler(fares){
-  return Math.pow(fares,3)
+  return fares*3
 }
