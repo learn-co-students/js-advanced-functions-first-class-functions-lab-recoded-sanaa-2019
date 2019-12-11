@@ -1,20 +1,22 @@
 // Code your solution in this file!
  const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
 const returnFirstTwoDrivers=function(drivers){
-  
+  return drivers.slice(0,2)
   
   
 }
  
+ const returnLastTwoDrivers=function(drivers){
+   return return drivers.slice(pos,4)
+ }
  
  
- 
- , returnLastTwoDrivers] = (
+ , ] = (
   function(drivers) {
     
     return [
-      function() { return drivers.slice(0,2) },
-      function() { return drivers.slice(pos,4) }
+      function() {  },
+      function() { return drivers.slice(drivers.length-2,4) }
     ]
   }
 )(2)
