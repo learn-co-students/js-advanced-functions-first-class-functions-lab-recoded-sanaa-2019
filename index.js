@@ -7,7 +7,7 @@ const returnFirstTwoDrivers=function(drivers){
 }
  
  const returnLastTwoDrivers=function(drivers){
-   return return drivers.slice(drivers.length-2,4)
+    return drivers.slice(drivers.length-2,4)
  }
  
  
