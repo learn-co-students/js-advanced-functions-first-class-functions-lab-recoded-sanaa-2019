@@ -18,6 +18,6 @@ function createFareMultiplier(num){
 function fareDoubler(fares){
   return fares *2
 }
-function fareTripler(){
+function fareTripler(fares){
   return Math.pow(fares,3)
 }
