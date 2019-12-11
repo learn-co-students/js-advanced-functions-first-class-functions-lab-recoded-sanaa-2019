@@ -11,17 +11,3 @@ const returnFirstTwoDrivers=function(drivers){
  }
  
 const selectingDrivers=[returnFirstTwoDrivers,returnLastTwoDrivers]
-)(2)
- function returnFirstTwoDrivers(drivers){
-  let pos=0
-   let  iterator = drivers.slice(0,2); 
-   return iterator
- }
- function returnLastTwoDrivers(drivers){
-   let pos=drivers.length-2
-     let  iterator = drivers.slice(pos,4); 
-   return iterator
- }
- function selectingDrivers(){
-   
- }
