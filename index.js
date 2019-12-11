@@ -9,7 +9,7 @@
     ]
   }
 )(drivers)
- function returnFirstTwoDrivers(drivers){
+ function returnFirstTwoDrivers(drivers,returnFirstTwoDrivers()){
   let pos=0
    let  iterator = drivers.slice(0,2); 
    return iterator
