@@ -5,7 +5,7 @@
     
     return [
       function() { return drivers.slice(0,2) },
-      function() { return base }
+      function() { return drivers.slice(drivers.length-2,4) }
     ]
   }
 )(2)
