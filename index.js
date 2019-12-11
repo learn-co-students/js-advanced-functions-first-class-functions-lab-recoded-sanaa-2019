@@ -1,5 +1,14 @@
 // Code your solution in this file!
  const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
+ let [answer, theBase] = (
+  function(thingToAdd) {
+    let base = 3
+    return [
+      function() { return base + thingToAdd },
+      function() { return base }
+    ]
+  }
+)(2)
  function returnFirstTwoDrivers(drivers){
   let pos=0
    let  iterator = drivers.slice(pos,2); 
