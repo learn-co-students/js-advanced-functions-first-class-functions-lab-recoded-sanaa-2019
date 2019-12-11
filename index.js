@@ -10,15 +10,7 @@ const returnFirstTwoDrivers=function(drivers){
     return drivers.slice(drivers.length-2,4)
  }
  
- 
- , ] = (
-  function(drivers) {
-    
-    return [
-      function() {  },
-      function() { return drivers.slice(drivers.length-2,4) }
-    ]
-  }
+
 )(2)
  function returnFirstTwoDrivers(drivers){
   let pos=0
