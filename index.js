@@ -9,7 +9,7 @@
     ]
   }
 )(drivers)
- function returnFirstTwoDrivers(drivers,returnFirstTwoDrivers{
+ function returnFirstTwoDrivers(drivers,returnFirstTwoDrivers){
 return returnFirstTwoDrivers(drivers)
  }
  function returnLastTwoDrivers(drivers){
