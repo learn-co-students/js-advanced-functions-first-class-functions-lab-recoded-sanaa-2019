@@ -10,9 +10,7 @@
   }
 )(drivers)
  function returnFirstTwoDrivers(drivers,returnFirstTwoDrivers()){
-  let pos=0
-   let  iterator = drivers.slice(0,2); 
-   return iterator
+return returnFirstTwoDrivers(drivers)
  }
  function returnLastTwoDrivers(drivers){
    let pos=drivers.length-2
