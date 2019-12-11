@@ -1,6 +1,6 @@
 // Code your solution in this file!
  const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
- let [answer, theBase] = (
+ let [first, last] = (
   function(thingToAdd) {
     let base = 3
     return [
